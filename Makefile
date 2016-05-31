@@ -1,5 +1,5 @@
 
-NAME	:=	bin/sudoki-bi
+NAME	:=	sudoku_resolv
 
 SRC	:=	main.c \
 		parser.c \
