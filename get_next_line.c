@@ -29,6 +29,7 @@ char	*assign_buff(char *str_tmp, char *buff, int i, int state)
   int	size;
   char	*str;
 
+  size = 0;
   if (state == 0)
     size = utils_functions(str_tmp, 0, -1) + READ_SIZE + 1;
   else if (state == 1)
