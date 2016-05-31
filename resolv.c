@@ -8,6 +8,7 @@ int	check_enter(int **map, t_pos pos, int *place_one)
 
   last_nbr = 0;
   nbr_solution = 0;
+  save_nbr = 0;
   if (map[pos.y][pos.x] == 0)
     {
       while (++last_nbr < 10)

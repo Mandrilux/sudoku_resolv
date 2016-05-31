@@ -15,7 +15,8 @@ INC_DIR	:=	include
 
 OBJ	:=	$(SRC:.c=.o)
 
-CFLAGS  :=	-Wall -Wextra -W -pedantic -ansi 
+CFLAGS  :=	-Wall -Wextra -W -pedantic -ansi -O3
+
 CFLAGS	+=	-I$(INC_DIR)
 
 all:	$(NAME)
